@@ -1,0 +1,4 @@
+requests
+pdfplumber
+pymupdf
+python-docx
