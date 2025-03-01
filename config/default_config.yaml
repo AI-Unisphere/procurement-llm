@@ -1,0 +1,73 @@
+# Default configuration for Procurement GRANITE project
+
+# Paths
+paths:
+  data:
+    raw: "data/raw"
+    processed: "data/processed"
+    synthetic: "data/synthetic"
+  models: "models"
+  logs: "logs"
+
+# Model configuration
+model:
+  base_model: "ibm/granite-3.2-8b-instruct"
+  lora:
+    r: 16
+    alpha: 32
+    dropout: 0.05
+    target_modules: ["q_proj", "v_proj"]
+  quantization: "8bit"  # Options: "8bit", "4bit", None
+
+# Training configuration
+training:
+  batch_size: 4
+  gradient_accumulation_steps: 8
+  learning_rate: 2.0e-4
+  warmup_steps: 100
+  max_steps: 1000
+  save_steps: 200
+  eval_steps: 200
+  logging_steps: 50
+  max_grad_norm: 0.3
+  weight_decay: 0.01
+  lr_scheduler_type: "cosine"
+  seed: 42
+
+# Data processing
+data_processing:
+  max_length: 2048
+  train_test_split: 0.9
+  document_formats:
+    - "pdf"
+    - "docx"
+    - "txt"
+  
+# Evaluation
+evaluation:
+  metrics:
+    - "accuracy"
+    - "precision"
+    - "recall"
+    - "f1"
+  weights:
+    rfp_requirements: 0.6
+    best_practices: 0.4
+
+# API configuration
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 1
+  timeout: 300
+  batch_size: 1
+
+# Deployment
+deployment:
+  docker:
+    image_name: "procurement-granite"
+    tag: "latest"
+  resources:
+    cpu: 4
+    memory: "16Gi"
+    gpu: 1 

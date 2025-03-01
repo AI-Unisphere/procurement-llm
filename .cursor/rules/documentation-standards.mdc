@@ -1,0 +1,8 @@
+---
+description: Documentation Standards
+globs: 
+---
+- Maintain comprehensive API documentation for integration.
+- Create a model card explaining capabilities and limitations.
+- Provide example code for common use cases.
+- Document all preprocessing steps and model training decisions.

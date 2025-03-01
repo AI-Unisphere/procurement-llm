@@ -1,0 +1,10 @@
+---
+description: Implementation Priorities
+globs: 
+---
+- Always refer to [project-plan.md](mdc:project-plan.md) for understanding the plan for the project
+- Follow the five-phase approach: Data Collection, Model Development, Evaluation, Integration, and Continuous Improvement.
+- Prioritize extraction accuracy for RFP requirements and evaluation criteria.
+- Implement weighted scoring system (60% RFP requirements, 40% best practices).
+- Develop fallback mechanisms for complex edge cases.
+- Document bias mitigation strategies throughout development.

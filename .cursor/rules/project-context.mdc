@@ -1,0 +1,11 @@
+---
+description: Project Context
+globs: 
+---
+
+# Your rule content
+
+- This project involves fine-tuning IBM GRANITE 3.2 8B Instruct for procurement document analysis.
+- The system will analyze RFPs and evaluate bids for connectivity services.
+- The project requires both a trained model and a self-hosted inference API.
+- The model must extract key information from RFPs and provide objective bid evaluations.

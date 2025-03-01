@@ -1,0 +1,10 @@
+---
+description: Technical Guidelines
+globs: 
+---
+- Always prioritize the IBM GRANITE 3.2 8B Instruct model as the foundation for fine-tuning.
+- Use Parameter-Efficient Fine-Tuning (PEFT) with LoRA for model adaptation.
+- Implement self-hosting solutions since Hugging Face Inference API is disabled for this model.
+- Develop with FastAPI for the inference endpoint and Docker for containerization.
+- Maintain compatibility with PyTorch and Hugging Face Transformers ecosystem.
+- Implement document processing for multiple formats (PDF, DOCX, etc.).

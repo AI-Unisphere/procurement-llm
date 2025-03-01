@@ -1,0 +1,9 @@
+---
+description: Data Handling Rules
+globs: 
+---
+- Focus on procurement documents from specified sources (GPPD, IIAG, OpenAfrica, OCDS).
+- Ensure proper data cleaning and preprocessing for all training data.
+- Create instruction-tuning datasets with appropriate input-output pairs.
+- Generate synthetic examples when necessary to enhance training data.
+- Implement data version control using DVC for reproducibility

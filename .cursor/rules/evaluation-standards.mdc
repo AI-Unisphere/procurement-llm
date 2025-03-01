@@ -1,0 +1,8 @@
+---
+description: Evaluation Standards
+globs: 
+---
+- Compare extraction accuracy against human-annotated examples.
+- Use domain experts to evaluate bid scoring accuracy when possible.
+- Implement RAGAS for information extraction evaluation.
+- Develop custom procurement metrics for domain-specific evaluation.
