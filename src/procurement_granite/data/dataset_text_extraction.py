@@ -16,7 +16,7 @@ script_dir = Path(__file__).resolve().parent
 
 documents_path = "D:\projects\procurement-llm\documents"
 filtered_dataset_path = os.path.join(script_dir, r"../../../data/processed/filtered.json")
-full_dataset_path = os.path.join(script_dir, r"../../../data/processed/full_dataset.json")
+full_dataset_path = os.path.join(script_dir, r"../../../data/processed/filtered_with_text.json")
 
 def extract_text_ocr(pdf_file: str) -> str:
     """
