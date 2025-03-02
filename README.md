@@ -91,8 +91,12 @@ procurement-granite/
 
 ## License
 
-[Specify your license here]
+This project is licensed under the terms of the MIT license.
 
 ## Contributors
 
-[List contributors here] 
+Mauro Gioberti - maurol.gioberti@gmail.com
+Donaldo Oruci - donaldoruci@gmail.com
+Anu Ylänen - anupulu@gmail.com
+Melody Amaizu - maconzy12@gmail.com
+Lucas Pilla Pimentel - elucaspimentel@gmail.com
