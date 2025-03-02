@@ -3,3 +3,5 @@ pdfplumber
 pymupdf
 python-docx
 tqdm
+pdf2image
+pytesseract
