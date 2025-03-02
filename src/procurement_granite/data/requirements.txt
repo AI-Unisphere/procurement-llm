@@ -5,3 +5,4 @@ python-docx
 tqdm
 pdf2image
 pytesseract
+tika
