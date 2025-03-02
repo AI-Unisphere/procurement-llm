@@ -1,6 +1,6 @@
 # Procurement Document Analysis with IBM GRANITE
 
-A specialized LLM system for analyzing procurement documents (RFPs) and evaluating bids for connectivity services using fine-tuned IBM GRANITE 3.2 8B Instruct.
+A specialized LLM system for analyzing procurement documents (RFPs) and evaluating bids for connectivity services using fine-tuned IBM Granite 3.1 2B Instruct.
 
 ## Project Overview
 
@@ -12,12 +12,11 @@ This project aims to develop an AI system that can:
 
 ## Technology Stack
 
-- **Base Model**: IBM GRANITE 3.2 8B Instruct
+- **Base Model**: IBM Granite 3.1 2B Instruct
 - **Fine-tuning**: Parameter-Efficient Fine-Tuning (PEFT) with LoRA
 - **Framework**: PyTorch, Hugging Face Transformers
 - **API**: FastAPI
 - **Deployment**: Docker, Cloud Infrastructure with GPU support
-- **Data Processing**: PyPDF2, python-docx, DVC
 - **Evaluation**: RAGAS, Custom procurement metrics
 
 ## Project Structure
@@ -92,8 +91,12 @@ procurement-granite/
 
 ## License
 
-[Specify your license here]
+This project is licensed under the terms of the MIT license.
 
 ## Contributors
 
-[List contributors here] 
+- Mauro Gioberti - maurol.gioberti@gmail.com
+- Donaldo Oruci - donaldoruci@gmail.com
+- Anu Ylänen - anupulu@gmail.com
+- Melody Amaizu - maconzy12@gmail.com
+- Lucas Pilla Pimentel - elucaspimentel@gmail.com
